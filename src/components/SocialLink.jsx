@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SocialLink = () => {
+const SocialLink = ({className}) => {
   return (
-    <div className="icon-list">
+    <div className={className}>
                 <a href="#"><i className="fa-brands fa-facebook"></i></a>
                 <a href="#"><i className="fa-brands fa-twitter"></i></a>
                 <a href="#"><i className="fa-brands fa-threads"></i></a>

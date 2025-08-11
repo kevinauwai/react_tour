@@ -127,6 +127,7 @@ nav .container{
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+    text-transform: capitalize;
 }
 .menu-list a{
     
@@ -182,7 +183,7 @@ nav .container{
 
 .hero{
     position: relative;
-    background-image: url(../src/assets/img/background.jpg);
+    background-image: url(../src/assets/background.jpg);
     background-position: left; 
     background-repeat: no-repeat;
     background-size: cover; 
@@ -220,7 +221,8 @@ nav .container{
     color:white;
     padding: 1rem 2rem;
     border:1px solid white;
-    background: #000;
+    /* background: #000; */
+    background: rgba(0,0,0,0.2);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -455,6 +457,10 @@ footer{
     .hero h1{
     font-size: 2rem;
     padding:1rem;
+}
+.hero{
+    background-image: none;
+    background-color: #4f959d;
 }
 section h2{
     font-size: 1.5rem;

@@ -1,13 +1,8 @@
 import React from 'react'
 
-const PageLink = ({className}) => {
+const PageLink = (item) => {
   return (
-    <ul className={className}>
-        <li className="menu-item"><a href="#home">Home</a></li>
-        <li className="menu-item"><a href="#about">About</a></li>
-        <li className="menu-item"><a href="#services">Services</a></li>
-        <li className="menu-item"><a href="#tours">Tours</a></li>
-    </ul>
+    <li className="menu-item"><a href={item.link}>{item.text}</a></li>
   )
 }
 

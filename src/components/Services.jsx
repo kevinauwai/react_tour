@@ -1,9 +1,10 @@
 import React from 'react'
+import Title from './Title'
 
 const Services = () => {
   return (
      <section  id="services" className="services">
-             <h2><span className="text-primary">our</span> <span className="text-secondary">services</span></h2>
+            <Title title="our" subtitle="services"/>
         <div className="services-content">
             <div className="service">
                 <i className="fa-solid fa-wallet"></i>
