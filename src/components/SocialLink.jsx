@@ -1,11 +1,9 @@
 import React from 'react'
-
+import { socialLinks } from '../data';
 const SocialLink = ({className}) => {
   return (
     <div className={className}>
-                <a href="#"><i className="fa-brands fa-facebook"></i></a>
-                <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                <a href="#"><i className="fa-brands fa-threads"></i></a>
+      {socialLinks.map((link)=><a href={link.href} key={link.id}><i className={link.icon}></i></a>)}
         </div>
   )
 }

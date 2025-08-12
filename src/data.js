@@ -57,4 +57,41 @@ export const menuitems=[
         link:"#tours",
         text:"Tours"
     },
+];
+export const socialLinks=[
+    {
+        id:1,
+        href:"http://www.facebook.com",
+        icon:"fa-brands fa-facebook"
+    },
+    {
+        id:2,
+        href:"http://www.twitter.com",
+        icon:"fa-brands fa-twitter"
+    },
+    {
+        id:3,
+        href:"http://www.fa-threads.com",
+        icon:"fa-brands fa-threads"
+    },
+];
+export const services=[
+    {
+        id:1,
+        icon:"fa-solid fa-wallet",
+        title:"saving money",
+        info:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium hic optio nihil quaerat eum doloremque."
+    },
+     {
+        id:2,
+        icon:"fa-solid fa-tree",
+        title:"endless hiking",
+        info:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium hic optio nihil quaerat eum doloremque."
+    },
+     {
+        id:3,
+        icon:"fa-solid fa-socks",
+        title:"amazing comfort",
+        info:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium hic optio nihil quaerat eum doloremque."
+    },
 ]
