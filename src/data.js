@@ -1,7 +1,7 @@
 export const tours=[
     {
         id:1,
-        image:'./img/tour1.png',
+        image:'../img/tour1.png',
         date:'Aug 11th, 2025',
         title:"Tibet Adventure",
         info:"lorem ipsum dolor sit amet.",
@@ -11,7 +11,7 @@ export const tours=[
     },
     {
         id:2,
-        image:'./img/tour2.png',
+        image:'../img/tour2.png',
         date:'Aug 12th, 2025',
         title:"Tibet Adventure",
         info:"lorem ipsum dolor sit amet.",
@@ -21,7 +21,7 @@ export const tours=[
     },
     {
         id:3,
-        image:'./img/tour3.png',
+        image:'../img/tour3.png',
         date:'Aug 13th, 2025',
         title:"Tibet Adventure",
         info:"lorem ipsum dolor sit amet.",
@@ -31,7 +31,7 @@ export const tours=[
     },
     {
         id:4,
-        image:'./img/tour4.png',
+        image:'../img/tour4.png',
         date:'Aug 14th, 2025',
         title:"Tibet Adventure",
         info:"lorem ipsum dolor sit amet.",
